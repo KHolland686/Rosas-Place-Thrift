@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightcoral;
+    color: salmon;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: cursive;
+    background-color: lavenderblush;
+    color: lightcoral;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: salmon;
+    font-size: 2em;
+    text-align: center;
+
+}
+h2 {
+    color: lightseagreen;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+h3 {
+    color: lavenderblush;
+    font-size: 1.7em;
+    text-align: center;
+    font-family: cursive;
+}
+
+a {
+    color: turquoise; 
+    text-decoration: underline; 
+}
+a:visited {
+    color: salmon; 
+    text-decoration:line-through;
+}
+a:hover {
+    color: lavenderblush;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: turquoise;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: salmon;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: dotted;
+}
+nav ul li a:hover {
+    background-color: salmon;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(10, 175, 148);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lemonchiffon;
+    color: lightcoral;
+}
