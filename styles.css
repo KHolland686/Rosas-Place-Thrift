@@ -1,14 +1,16 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: lightcoral;
-    color: salmon;
+    color: rgb(6, 43, 43);
+    font-size: 1.1em;
     margin: 0;
     padding: 0;
 }
 
 header {
     font-family: cursive;
-    background-color: lavenderblush;
+    background-color: lemonchiffon;
+    font-size: 2.5em;
     color: lightcoral;
     padding: 20px;
     text-align: center;
@@ -26,7 +28,7 @@ h2 {
 
 }
 h3 {
-    color: lavenderblush;
+    color: lavender;
     font-size: 1.7em;
     text-align: center;
     font-family: cursive;
@@ -70,7 +72,7 @@ nav ul li a:hover {
 section {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: lemonchiffon;
+    background-color: lightgoldenrodyellow;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgb(10, 175, 148);
 }
