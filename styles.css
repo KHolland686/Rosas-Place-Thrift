@@ -1,5 +1,6 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
     background-color: lightcoral;
     color: rgb(6, 43, 43);
     font-size: 1.1em;
@@ -23,22 +24,32 @@ body {
 }
 
 .enter-button {
-    display: inline-block;
-    padding: 1em 2em;
-    background-color: lightseagreen;
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-    border-radius: 5px;
+    display: inline-flex;
+    /* display: inline-block; */
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 1em solid  #8fccd0;
+    border-radius: 1em;
+    text-decoration: wavy underline overline teal 2px;
+    color: salmon;
+    background:  #8fccd0;
+    text-shadow: mistyrose 1px 1px 2px;
+    box-shadow: aquamarine 1px 1px 2px;
+    margin: .5em;
     transition: background-color 0.3s ease;
 }
 
 .enter-button:hover {
-    background-color: darkcyan;
+    border: 1em solid lavender;
+    border-radius: 2em;
+    background: lavender;
+    color: lemonchiffon;
+    text-decoration: overline wavy aqua 2px;
 }
 
 header, footer {
-    font-family: cursive;
+    font-family: 'Indie Flower', cursive;
     background-color: lemonchiffon;
     color: lightcoral;
     padding: .5em;
@@ -46,42 +57,49 @@ header, footer {
 }
 
 h1, h2, h3 {
+    background: lemonchiffon;
+    border: 1px solid lightcoral;
+    border-radius: 1em;
     text-align: center;
-    font-family: crsive;
 }
 
 h1 {
     color: salmon;
-    font-size: 3em;
+    font-size: 3.5em;
     text-shadow: indigo 1px 2px 5px;
+    font-family: 'Great Vibes', cursive;
 }
 
 h2 {
     color: lightseagreen;
-    font-size: 1.5em;
-    text-shadow: lightcyan 1px 2px 3px;
+    font-size: 2em;
+    text-shadow: orchid 1px 2px 3px;
 }
 
 h3 {
-    color: deepskyblue;
+    color:  #8fccd0;
     font-size: 1.5em;
     text-shadow: indigo 2px 2px;
 }
 
 nav ul {
     list-style-type: none;
-    display: flow-root;
-    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-family: 'Indie Flower', cursive;
 }
 
 nav li a {
     display: inline-flex;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.3em;
     font-weight: bold;
-    border: 1em solid turquoise;
+    border: 1em solid  #8fccd0;
     border-radius: 1em;
     text-decoration: wavy underline overline teal 2px;
     color: salmon;
-    background: turquoise;
+    background:  #8fccd0;
     text-shadow: mistyrose 1px 1px 2px;
     box-shadow: aquamarine 1px 1px 2px;
     margin: .5em;
@@ -104,9 +122,9 @@ a:visited {
 section {
     padding: 2em;
     margin-bottom: 5em;
-    background-color: lightgoldenrodyellow;
+    background-color: blanchedalmond;
     border-radius: 5em;
-    box-shadow: 0 2px 5px aqua;
+    box-shadow: 2px 2px 5px lightcyan;
 }
 
 .notes, .description {
@@ -136,4 +154,22 @@ section {
     box-shadow: .2em .3em 2em 1em teal;
     background-color: turquoise;
     border-radius: 10;
+}
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .map {
+    width: 100%; 
+    height: 100%;
+    margin: 1.2em;
+    border-radius: 1em;
+    box-shadow: aquamarine 1px 1px 2px;
 }
